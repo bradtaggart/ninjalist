@@ -32,6 +32,7 @@ const Details = ({ ninja }) => {
       <h1>{ninja.email}</h1>
       <h1>{ninja.website}</h1>
       <h1>{ninja.address.city}</h1>
+      <h1>{ninja.phone}</h1>
     </div>
   );
 };
